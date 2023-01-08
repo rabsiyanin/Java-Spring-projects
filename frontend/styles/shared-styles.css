@@ -1,0 +1,18 @@
+.list-view .content {
+   display: flex;
+ }
+
+.list-view .Passenger-grid {
+    flex: 2;
+}
+.list-view .Passenger-Form {
+    flex: 1;
+    padding: var (--lumo-space-m);
+}
+
+@media all and (max-width: 1000px) {
+    .list-view.editing .toolbar,
+    .list-view. editing .Passenger-Form {
+       display: none;
+     }
+}
